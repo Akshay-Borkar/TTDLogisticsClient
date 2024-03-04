@@ -1,12 +1,12 @@
-# [Paper Kit 2 PRO Angular - Premium Bootstrap 4 UI Kit](https://creativetimofficial.github.io/paper-kit-2-pro-angular/#/presentation?ref=pk-pro-angular-readme) [![version][version-badge]][CHANGELOG]
+# [TTD Logistics - Premium Bootstrap 4 UI Kit](https://creativetimofficial.github.io/paper-kit-2-pro-angular/#/presentation?ref=pk-pro-angular-readme) [![version][version-badge]][CHANGELOG]
 
-![Paper Kit 2 PRO Angular ](https://s3.amazonaws.com/creativetim_bucket/products/68/original/opt_pk2p_angular_thumbnail.jpg?1501180792)
+![TTD Logistics ](https://s3.amazonaws.com/creativetim_bucket/products/68/original/opt_pk2p_angular_thumbnail.jpg?1501180792)
 
-Paper Kit 2 PRO Angular is a premium Bootstrap 4 UI Kit with a huge number of components, sections and example pages. All the components are designed to look great together, following the same design pattern. Any elements that is vital to code a web project is already here, fully coded. All components are fully responsive and look great on every screen size. Transitions, shadows, colors, they all resemble the flow you would have using pieces of paper.
+TTD Logistics is a premium Bootstrap 4 UI Kit with a huge number of components, sections and example pages. All the components are designed to look great together, following the same design pattern. Any elements that is vital to code a web project is already here, fully coded. All components are fully responsive and look great on every screen size. Transitions, shadows, colors, they all resemble the flow you would have using pieces of paper.
 
-The idea behind Paper Kit 2 PRO Angular is creating beautiful, playful design. We have created the UI Kit kit having pastel colors and paper in mind. It feels light, fresh and easy to go through. It looks great with illustrations and drawings, but also using images. It features beautiful typography, font icons and thoughtful layouts.
+The idea behind TTD Logistics is creating beautiful, playful design. We have created the UI Kit kit having pastel colors and paper in mind. It feels light, fresh and easy to go through. It looks great with illustrations and drawings, but also using images. It features beautiful typography, font icons and thoughtful layouts.
 
-Paper Kit 2 PRO Angular is the extended version of [Paper Kit 2 Angular](https://www.creative-tim.com/product/paper-kit-2-angular?ref=pk-pro-angular-readme). Based on feedback from people that downloaded and used it, we have added needed components and we have created multiple examples pages. We are curious to see how you
+TTD Logistics is the extended version of [Paper Kit 2 Angular](https://www.creative-tim.com/product/paper-kit-2-angular?ref=pk-pro-angular-readme). Based on feedback from people that downloaded and used it, we have added needed components and we have created multiple examples pages. We are curious to see how you
 want to use it and also improve it, so let us know any feedback you have.
 
 
@@ -16,7 +16,7 @@ Paper Kit PRO Angular is built on top of Bootstrap 4, so it fully supports it. M
 
 **Examples**
 
-Paper Kit 2 PRO Angular contains a lot of pages already designed and implemented. The pages are created for basic flows like registering, building a profile, adding and searching for products. Either you are building a blog or an e-commerce, the examples can help you jump start it. Here is the list with the pages available. We are also working on more example pages, that you will be able to access no matter the version you download.
+TTD Logistics contains a lot of pages already designed and implemented. The pages are created for basic flows like registering, building a profile, adding and searching for products. Either you are building a blog or an e-commerce, the examples can help you jump start it. Here is the list with the pages available. We are also working on more example pages, that you will be able to access no matter the version you download.
 
 
 - [About Us](https://creativetimofficial.github.io/paper-kit-2-pro-angular/#/examples/aboutus?ref=pk-pro-angular-readme)
@@ -80,7 +80,7 @@ Let us know your thoughts below. And good luck with development!
 
 | HTML | Angular | React |
 | ---  | --- | --- |
-| [![Paper Kit 2 Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/60/opt_pk2p_thumbnail.jpg)](https://www.creative-tim.com/product/paper-kit-2-pro?ref=pk-pro-angular-readme) | [![Paper Kit 2 Pro Angular](http://s3.amazonaws.com/creativetim_bucket/products/68/original/opt_pk2p_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-kit-2-pro-angular?ref=pk-pro-angular-readme) | [![Paper Kit 2 Pro React](http://s3.amazonaws.com/creativetim_bucket/products/168/original/opt_pkp_react_thumbnail.jpg)](https://www.creative-tim.com/product/paper-kit-pro-react?ref=pk-pro-angular-readme)
+| [![Paper Kit 2 Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/60/opt_pk2p_thumbnail.jpg)](https://www.creative-tim.com/product/paper-kit-2-pro?ref=pk-pro-angular-readme) | [![TTD Logistics](http://s3.amazonaws.com/creativetim_bucket/products/68/original/opt_pk2p_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-kit-2-pro-angular?ref=pk-pro-angular-readme) | [![Paper Kit 2 Pro React](http://s3.amazonaws.com/creativetim_bucket/products/168/original/opt_pkp_react_thumbnail.jpg)](https://www.creative-tim.com/product/paper-kit-pro-react?ref=pk-pro-angular-readme)
 
 ## Demo
 
@@ -99,7 +99,7 @@ Quick start options:
 
 
 ## Documentation
-The documentation for the Paper Kit 2 Pro Angular is hosted at our [website](https://demos.creative-tim.com/paper-kit-2-pro-angula/#r/documentation/tutorial?ref=pk-pro-angular-readme).
+The documentation for the TTD Logistics is hosted at our [website](https://demos.creative-tim.com/paper-kit-2-pro-angula/#r/documentation/tutorial?ref=pk-pro-angular-readme).
 
 
 ## File Structure
@@ -398,7 +398,7 @@ At present, we officially aim to support the last two versions of the following 
 ## Reporting Issues
 We use GitHub Issues as the official bug tracker for the Material Dashboard Pro. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Paper Kit 2 PRO Angular. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
+1. Make sure that you are using the latest version of the TTD Logistics. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
