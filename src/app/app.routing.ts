@@ -25,9 +25,11 @@ import { Page404Component } from './examples/page404/page404.component';
 import { Page422Component } from './examples/page422/page422.component';
 import { Page500Component } from './examples/page500/page500.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
+import { CareersComponent } from './careers/careers.component';
 
 const routes: Routes =[
     { path: 'presentation',         component: PresentationComponent },
+    { path: 'careers',   component: CareersComponent },
     { path: 'components',           component: ComponentsComponent },
     { path: 'sections',             component: SectionsComponent },
     { path: 'nucleoicons',          component: NucleoiconsComponent },

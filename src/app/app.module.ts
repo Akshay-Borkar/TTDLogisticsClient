@@ -12,12 +12,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 
 import { PresentationModule } from './presentation/presentation.module';
+import { CareersComponent } from './careers/careers.component';
 
 @NgModule({
-    declarations: [
+    declarations: [	
         AppComponent,
-        NavbarComponent
-    ],
+        NavbarComponent,
+      CareersComponent
+   ],
     imports: [
         BrowserAnimationsModule,
         NgbModule,
