@@ -26,10 +26,18 @@ import { Page422Component } from './examples/page422/page422.component';
 import { Page500Component } from './examples/page500/page500.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import { CareersComponent } from './careers/careers.component';
+import { HistoryComponent } from './history/history.component';
+import { MissionVissionComponent } from './mission-vission/mission-vission.component';
+import { DirectorsComponent } from './directors/directors.component';
+import { LogisticsComponent } from './logistics/logistics.component';
 
 const routes: Routes =[
-    { path: 'presentation',         component: PresentationComponent },
+    { path: 'home',         component: PresentationComponent },
     { path: 'careers',   component: CareersComponent },
+    { path: 'about/history',   component: HistoryComponent },
+    { path: 'about/mission',   component: MissionVissionComponent },
+    { path: 'about/directors',   component: DirectorsComponent },
+    { path: 'services/logistics',   component: LogisticsComponent },
     { path: 'components',           component: ComponentsComponent },
     { path: 'sections',             component: SectionsComponent },
     { path: 'nucleoicons',          component: NucleoiconsComponent },
@@ -51,7 +59,7 @@ const routes: Routes =[
     { path: 'examples/page404',     component: Page404Component },
     { path: 'examples/page422',     component: Page422Component },
     { path: 'examples/page500',     component: Page500Component },
-    { path: '', redirectTo: 'presentation', pathMatch: 'full' }
+    { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
