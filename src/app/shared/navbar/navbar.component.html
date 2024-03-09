@@ -5,7 +5,7 @@
                 <img alt="" src="./assets/img/ttd-new-logo-small.png">
                 <a class="navbar-brand text-color" [routerLink]="['/home']">TTD Logistics</a>
             </div>
-            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+            <button class="navbar-toggler navbar-burger" style="background: red;" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar bar1"></span>
                 <span class="navbar-toggler-bar bar2"></span>
                 <span class="navbar-toggler-bar bar3"></span>
@@ -14,23 +14,23 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="btn btn-round btn-link" [routerLink]="['/home']">
-                        <i class="bi bi-house"></i> Home 
+                    <a class="btn btn-round btn-link text-color" [routerLink]="['/home']">
+                         Home 
                     </a>
                 </li>
                 <li class="nav-item">
-                <div ngbDropdown class="nav-item dropdown">           
-                    <div class="nav-link dropdown-toggle text-color" ngbDropdownToggle>About Us</div>
-                    <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right dropdown-danger"> 
-                        <a class="dropdown-item" [routerLink]="['/about/history']"><i class="nc-icon nc-mobile"></i>&nbsp; History</a>
-                        <a class="dropdown-item" [routerLink]="['/about/mission']"><i class="nc-icon nc-badge"></i>&nbsp; Mission & Vision</a>
-                        <a class="dropdown-item" [routerLink]="['/about/directors']"><i class="nc-icon nc-badge"></i>&nbsp; Board Of Directors</a>
+                    <div ngbDropdown class="nav-item dropdown">           
+                        <div class="nav-link dropdown-toggle text-color" style="margin-left: 10px" ngbDropdownToggle>About Us</div>
+                        <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right dropdown-danger"> 
+                            <a class="dropdown-item" [routerLink]="['/about/history']"><i class="nc-icon nc-mobile"></i>&nbsp; History</a>
+                            <a class="dropdown-item" [routerLink]="['/about/mission']"><i class="nc-icon nc-badge"></i>&nbsp; Mission & Vision</a>
+                            <a class="dropdown-item" [routerLink]="['/about/directors']"><i class="nc-icon nc-badge"></i>&nbsp; Board Of Directors</a>
+                        </div>
                     </div>
-                </div>
                 </li> 
                 <li class="nav-item">
                     <div ngbDropdown class="nav-item dropdown">           
-                        <div class="nav-link dropdown-toggle text-color" ngbDropdownToggle>Services</div>
+                        <div class="nav-link dropdown-toggle text-color" style="margin-left: 10px" ngbDropdownToggle>Services</div>
                         <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right dropdown-danger">
                             <a class="dropdown-item" [routerLink]="['/services/logistics']"><i class="nc-icon nc-mobile"></i>&nbsp; Logistics</a>
                             <a class="dropdown-item" [routerLink]="['/services/logistics']"><i class="nc-icon nc-badge"></i>&nbsp; Other Service</a>
@@ -43,13 +43,13 @@
                     </a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="btn btn-round btn-link" [routerLink]="['/careers']">
-                        <i class=""></i> Careers  
+                    <a class="btn btn-round btn-link text-color" [routerLink]="['/careers']">
+                         Careers  
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-round btn-link" [routerLink]="['/examples/contactus']">
-                       <i class=""></i> Contact Us 
+                    <a class="btn btn-round btn-link text-color" [routerLink]="['/examples/contactus']">
+                        Contact Us 
                     </a>
                 </li>
                 <li class="nav-item">
