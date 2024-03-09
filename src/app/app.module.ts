@@ -12,7 +12,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 
 import { PresentationModule } from './presentation/presentation.module';
-import { CareersComponent } from './careers/careers.component';
+import { CareersComponent } from './careers/careers.component'; 
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { HistoryComponent } from './history/history.component';
 import { MissionVissionComponent } from './mission-vission/mission-vission.component';
 import { DirectorsComponent } from './directors/directors.component';
@@ -37,7 +38,8 @@ import { LogisticsComponent } from './logistics/logistics.component';
         PresentationModule,
         SectionsModule,
         ComponentsModule,
-        ExamplesModule
+        ExamplesModule,
+        FlexLayoutModule
     ],
     providers: [],
     bootstrap: [AppComponent]
