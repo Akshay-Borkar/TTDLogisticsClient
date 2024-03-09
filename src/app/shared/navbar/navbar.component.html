@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-lg fixed-top nav-down" color-on-scroll="500">
+<nav class="navbar navbar-expand-lg fixed-top nav-down" color-on-scroll="500" style="background-color: white !important;">
     <div class="container">
         <div class="navbar-translate">
             <div class="navbar-header">
                 <img alt="" src="./assets/img/ttd-new-logo-small.png">
-                <a class="navbar-brand" [routerLink]="['/presentation']">TTD Logistics</a>
+                <a class="navbar-brand text-color" [routerLink]="['/presentation']">TTD Logistics</a>
             </div>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar bar1"></span>
@@ -63,7 +63,7 @@
                 <div ngbDropdown class="nav-item dropdown">
                     
 
-                    <div class="nav-link dropdown-toggle" ngbDropdownToggle>Contact US</div>
+                    <div class="nav-link dropdown-toggle text-color" ngbDropdownToggle>Contact US</div>
                     <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right dropdown-danger">
                         <a class="dropdown-item" [routerLink]="['/examples/contactus']"><i class="nc-icon nc-mobile"></i>&nbsp; Contact Us</a>
                         <a class="dropdown-item" [routerLink]="['/careers']"><i class="nc-icon nc-badge"></i>&nbsp; Careers</a>

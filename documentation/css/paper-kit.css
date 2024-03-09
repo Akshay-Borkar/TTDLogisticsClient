@@ -10988,3 +10988,7 @@ body {
 .documentation .filter:after {
   height: 750px !important;
 }
+
+.text-color{
+  color: black !important;
+}
