@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mission-vission.component.scss']
 })
 export class MissionVissionComponent implements OnInit {
-
+  data : Date = new Date();
   constructor() { }
 
   ngOnInit() {

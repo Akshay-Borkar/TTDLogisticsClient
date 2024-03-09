@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./directors.component.scss']
 })
 export class DirectorsComponent implements OnInit {
-
+  data : Date = new Date(); 
   constructor() { }
 
   ngOnInit() {

@@ -1,5 +1,7 @@
 import { Component, OnInit, OnDestroy, HostListener, ElementRef } from '@angular/core';
 
+
+
 declare const $: any;
 
 
