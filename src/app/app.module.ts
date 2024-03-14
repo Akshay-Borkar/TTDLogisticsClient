@@ -38,6 +38,7 @@ import { LogisticsComponent } from './logistics/logistics.component';
         SectionsModule,
         ComponentsModule,
         ExamplesModule,
+        NgbModule
     ],
     providers: [],
     bootstrap: [AppComponent]
