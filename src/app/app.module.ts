@@ -20,6 +20,7 @@ import { LogisticsComponent } from './logistics/logistics.component';
 import {PitchDeckComponent} from './pitchdeck/pitchdeck.component';
 import {OfficeToursComponent} from './officetours/officetours.component';
 import {WhyChooseUSComponent} from './whychooseus/whychooseus.component';
+import {ElectrifyingTTDComponent} from './electrifyingttd/electrifyingttd.component';
 
 @NgModule({
     declarations: [					
@@ -32,7 +33,8 @@ import {WhyChooseUSComponent} from './whychooseus/whychooseus.component';
       LogisticsComponent,
       PitchDeckComponent,
       OfficeToursComponent,
-      WhyChooseUSComponent
+      WhyChooseUSComponent,
+      ElectrifyingTTDComponent
    ],
     imports: [
         BrowserAnimationsModule,

@@ -33,18 +33,22 @@ import { LogisticsComponent } from './logistics/logistics.component';
 import {PitchDeckComponent} from './pitchdeck/pitchdeck.component';
 import {OfficeToursComponent} from './officetours/officetours.component';
 import {WhyChooseUSComponent} from './whychooseus/whychooseus.component';
+import {ElectrifyingTTDComponent} from './electrifyingttd/electrifyingttd.component';
 
 const routes: Routes =[
     { path: 'home',         component: PresentationComponent },
     { path: 'careers',   component: CareersComponent },
+
     { path: 'about/history',   component: HistoryComponent },
-    {path:'whychooseus',component:WhyChooseUSComponent},
+    {path:'about/whychooseus',component:WhyChooseUSComponent},
     { path: 'about/mission',   component: MissionVissionComponent },
     { path: 'about/directors',   component: DirectorsComponent },
     { path: 'services/logistics',   component: LogisticsComponent },
     { path: 'examples/contactus',   component: ContactusComponent },
     { path: 'about/pitchdeck',   component: PitchDeckComponent },
     {path:'about/officetours',component:OfficeToursComponent},
+    {path:'electrifyingttd',component:ElectrifyingTTDComponent},
+
 
     // { path: 'components',           component: ComponentsComponent },
     // { path: 'sections',             component: SectionsComponent },
