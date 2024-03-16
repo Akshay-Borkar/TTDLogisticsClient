@@ -30,6 +30,8 @@ import { HistoryComponent } from './history/history.component';
 import { MissionVissionComponent } from './mission-vission/mission-vission.component';
 import { DirectorsComponent } from './directors/directors.component';
 import { LogisticsComponent } from './logistics/logistics.component';
+import {PitchDeckComponent} from './pitchdeck/pitchdeck.component';
+import {OfficeToursComponent} from './officetours/officetours.component';
 
 const routes: Routes =[
     { path: 'home',         component: PresentationComponent },
@@ -39,6 +41,9 @@ const routes: Routes =[
     { path: 'about/directors',   component: DirectorsComponent },
     { path: 'services/logistics',   component: LogisticsComponent },
     { path: 'examples/contactus',   component: ContactusComponent },
+    { path: 'about/pitchdeck',   component: PitchDeckComponent },
+    {path:'about/officetours',component:OfficeToursComponent},
+
     // { path: 'components',           component: ComponentsComponent },
     // { path: 'sections',             component: SectionsComponent },
     // { path: 'nucleoicons',          component: NucleoiconsComponent },

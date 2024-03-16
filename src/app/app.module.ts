@@ -17,6 +17,8 @@ import { HistoryComponent } from './history/history.component';
 import { MissionVissionComponent } from './mission-vission/mission-vission.component';
 import { DirectorsComponent } from './directors/directors.component';
 import { LogisticsComponent } from './logistics/logistics.component';
+import {PitchDeckComponent} from './pitchdeck/pitchdeck.component';
+import {OfficeToursComponent} from './officetours/officetours.component';
 
 @NgModule({
     declarations: [					
@@ -26,7 +28,9 @@ import { LogisticsComponent } from './logistics/logistics.component';
       HistoryComponent,
       MissionVissionComponent,
       DirectorsComponent,
-      LogisticsComponent
+      LogisticsComponent,
+      PitchDeckComponent,
+      OfficeToursComponent
    ],
     imports: [
         BrowserAnimationsModule,
