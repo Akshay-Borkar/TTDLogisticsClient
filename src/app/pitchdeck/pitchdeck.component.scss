@@ -1,9 +1,10 @@
 .para-changes{
-    text-align: justify;
-    color: #000000;
-    font-family: "Poppins", Sans-serif;
-    font-size: x-large;
-    font-weight: 400;
+  color: #000000;
+  text-align: justify;
+  font-size: large;
+  line-height: 33px;
+  padding-top: 10px;
+  padding-left: 10px
    }
    .elementor-heading-title {
     color: #151212;
@@ -40,4 +41,22 @@
         background-position: center;
         filter: blur(100px);
         z-index: -1;        
+      }
+
+      .bg-text {
+        // background-color: rgb(0, 0, 0); /* Fallback color */
+        // background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        font-family: "Quando";
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 76%;
+        padding: 100px;
+        text-align: center;
+        height: 201px;
+        font-size: x-large;
       }

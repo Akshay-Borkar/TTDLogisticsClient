@@ -32,11 +32,13 @@ import { DirectorsComponent } from './directors/directors.component';
 import { LogisticsComponent } from './logistics/logistics.component';
 import {PitchDeckComponent} from './pitchdeck/pitchdeck.component';
 import {OfficeToursComponent} from './officetours/officetours.component';
+import {WhyChooseUSComponent} from './whychooseus/whychooseus.component';
 
 const routes: Routes =[
     { path: 'home',         component: PresentationComponent },
     { path: 'careers',   component: CareersComponent },
     { path: 'about/history',   component: HistoryComponent },
+    {path:'whychooseus',component:WhyChooseUSComponent},
     { path: 'about/mission',   component: MissionVissionComponent },
     { path: 'about/directors',   component: DirectorsComponent },
     { path: 'services/logistics',   component: LogisticsComponent },

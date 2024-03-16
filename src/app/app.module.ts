@@ -19,6 +19,7 @@ import { DirectorsComponent } from './directors/directors.component';
 import { LogisticsComponent } from './logistics/logistics.component';
 import {PitchDeckComponent} from './pitchdeck/pitchdeck.component';
 import {OfficeToursComponent} from './officetours/officetours.component';
+import {WhyChooseUSComponent} from './whychooseus/whychooseus.component';
 
 @NgModule({
     declarations: [					
@@ -30,7 +31,8 @@ import {OfficeToursComponent} from './officetours/officetours.component';
       DirectorsComponent,
       LogisticsComponent,
       PitchDeckComponent,
-      OfficeToursComponent
+      OfficeToursComponent,
+      WhyChooseUSComponent
    ],
     imports: [
         BrowserAnimationsModule,
