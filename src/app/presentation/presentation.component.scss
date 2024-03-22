@@ -67,24 +67,47 @@ img {
   font-size: 24px; /* Adjust font size as needed */
   font-weight: bold;
 }
-
-.bg-text {
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  font-family: "Quando";
-  border: 0px #f1f1f1;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 76%;
-  padding: 20px;
-  text-align: center;
-  height: 201px;
-  font-size: x-large;
+@media screen and (min-width:481px){
+  .bg-text {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-family: "Quando";
+    border: 0px #f1f1f1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 76%;
+    padding: 20px;
+    text-align: center;
+    height: 201px;
+    font-size: xx-large;
+      line-height: 1.2em;
+  }
+}
+@media screen and (max-width:480px) {
+  .bg-text {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-family: "Quando";
+    border: 0px #f1f1f1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 76%;
+    padding: 20px;
+    text-align: center;
+    height: 201px;
+    font-size: x-large;
+      line-height: 1.2em;
+  }
 }
 
 .ceo-text {
@@ -137,12 +160,15 @@ img {
   margin-top: 15px;
 }
 
-.polaroid {
-  padding: 42px;
-  margin: 42px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
+@media screen and (min-width:481px){
+  .polaroid {
+    padding: 42px;
+    margin: 42px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
 }
+
 
 .elementor-heading-title {
   color: #dc360f;
@@ -152,4 +178,13 @@ img {
   text-transform: capitalize;
   margin-top: -22px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width:480px) {
+  .polaroid {
+    display: block !important;
+    margin-left: 0%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  }
 }

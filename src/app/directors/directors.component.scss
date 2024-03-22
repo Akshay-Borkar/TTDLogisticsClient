@@ -1,46 +1,57 @@
-.para-changes{
-    font-family: "Open Sans", sans-serif;
-    color: #444444;
+.para-changes {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  text-align: justify;
+  font-size: x-large;
+}
+.elementor-heading-title {
+  color: #dc360f;
+  font-family: "Quando", Sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+@media screen and (min-width:481px) {
+  .polaroid {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: justify;
-    font-size: x-large;
-   }
-   .elementor-heading-title {
-    color: #dc360f;
-    font-family: "Quando", Sans-serif;
-     font-size: 23px; 
-    font-weight: 500;
-    text-transform: capitalize;
-	}
+    padding: 28px; margin: 55px;
+  }
+}
 
-    .polaroid {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        text-align: justify;
-      }
+.polaroid:hover {
+  background-color: #ffffdc;
+}
 
-      .polaroid:hover {
-        background-color: #FFFFDC
-        }
-        
+@media screen and (max-width:480px) {
+  .polaroid {
+    display: block !important;
+    margin-left: 0%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 28px;
+  }
+}
 
-      .ceo-text {
-        color: #610b02;
-        text-align: justify;
-        font-size: x-large;
-        line-height: 33px;
-        padding-top: 10px;
-        font-style: italic !important;
-      }
+.ceo-text {
+  color: #610b02;
+  text-align: justify;
+  font-size: x-large;
+  line-height: 33px;
+  padding-top: 10px;
+  font-style: italic !important;
+}
 
-      .description-css{
-        color: #000;
-        text-align: justify;
-        font-size: large;
-        line-height: 33px;
-        padding-top: 10px;
-        padding-left: 10px;
-      }
+.description-css {
+  color: #000;
+  text-align: justify;
+  font-size: large;
+  line-height: 33px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
-      .card-avatar-image{
-        max-width: 150px;
-        max-height: 150px;
-      }
+.card-avatar-image {
+  max-width: 150px;
+  max-height: 150px;
+}
