@@ -21,6 +21,11 @@ import {PitchDeckComponent} from './pitchdeck/pitchdeck.component';
 import {OfficeToursComponent} from './officetours/officetours.component';
 import {WhyChooseUSComponent} from './whychooseus/whychooseus.component';
 import {ElectrifyingTTDComponent} from './electrifyingttd/electrifyingttd.component';
+import {CorporateTransportServicesComponent} from './services/corporatetransportservices.component';
+import {EcommerceDeliveryComponent} from './services/e-commerce/e-commercedelivery.component';
+import {RegionalTransportationComponent} from './services/regionaltransportation/regionaltransportation.component';
+import {EvehicleChargingServicestationComponent} from './services/e-vehiclechargingservicestation/evehiclechargingservicestation.component';
+
 
 @NgModule({
     declarations: [					
@@ -34,7 +39,11 @@ import {ElectrifyingTTDComponent} from './electrifyingttd/electrifyingttd.compon
       PitchDeckComponent,
       OfficeToursComponent,
       WhyChooseUSComponent,
-      ElectrifyingTTDComponent
+      ElectrifyingTTDComponent,
+      CorporateTransportServicesComponent,
+      EcommerceDeliveryComponent,
+      RegionalTransportationComponent,
+      EvehicleChargingServicestationComponent
    ],
     imports: [
         BrowserAnimationsModule,

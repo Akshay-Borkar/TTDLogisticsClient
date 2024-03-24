@@ -13,6 +13,12 @@ export class ContactusComponent implements OnInit {
     data : Date = new Date();
 
   constructor() { }
+  openMap(): void {
+    // Example coordinates for the Eiffel Tower, Paris, France
+    const address = 'PNQK Delivery station, 14/2, 60 Feet Rd, Agrasen Nagar Society, Pimple Gurav, Pimpri-Chinchwad, Maharashtra 411061';
+    const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+    window.open(googleMapsUrl, '_blank'); 
+  }
 
   ngOnInit() {
       var body = document.getElementsByTagName('body')[0];

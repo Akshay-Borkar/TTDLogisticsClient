@@ -34,6 +34,10 @@ import {PitchDeckComponent} from './pitchdeck/pitchdeck.component';
 import {OfficeToursComponent} from './officetours/officetours.component';
 import {WhyChooseUSComponent} from './whychooseus/whychooseus.component';
 import {ElectrifyingTTDComponent} from './electrifyingttd/electrifyingttd.component';
+import {CorporateTransportServicesComponent} from './services/corporatetransportservices.component';
+import {EcommerceDeliveryComponent} from './services/e-commerce/e-commercedelivery.component';
+import {RegionalTransportationComponent} from './services/regionaltransportation/regionaltransportation.component';
+import {EvehicleChargingServicestationComponent} from './services/e-vehiclechargingservicestation/evehiclechargingservicestation.component';
 
 const routes: Routes =[
     { path: 'home',         component: PresentationComponent },
@@ -48,6 +52,11 @@ const routes: Routes =[
     { path: 'about/pitchdeck',   component: PitchDeckComponent },
     {path:'about/officetours',component:OfficeToursComponent},
     {path:'electrifyingttd',component:ElectrifyingTTDComponent},
+    {path:'services/corporatetransportservices',component:CorporateTransportServicesComponent},
+    {path:'services/e-commercedelivery',component:EcommerceDeliveryComponent},
+    {path:'services/regionaltransportation',component:RegionalTransportationComponent},
+    {path:'services/evehiclechargingservicestation',component:EvehicleChargingServicestationComponent},
+
 
 
     // { path: 'components',           component: ComponentsComponent },

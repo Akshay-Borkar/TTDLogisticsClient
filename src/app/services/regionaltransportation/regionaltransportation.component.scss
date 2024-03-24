@@ -1,0 +1,102 @@
+.Introduction-text {
+    color: black;
+    text-align: justify;
+    font-size: large;
+    line-height: 33px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.para-changes {
+    color: #000000;
+    text-align: justify;
+    font-size: large;
+    line-height: 33px;
+    padding-top: 10px;
+    padding-left: 10px
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #dc360f;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mt-photo {
+    padding-top: 125px !important;
+    margin-top: 120px !important;
+}
+
+.elementor-heading-title {
+    color: #dc360f;
+    font-family: "Quando", Sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.elementor-heading-title_New {
+    color: #dc360f;
+    font-family: "Quando", Sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.bg-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(100px);
+    z-index: -1;
+}
+
+.bg-text {
+    // background-color: rgb(0, 0, 0); /* Fallback color */
+    // background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-family: "Quando";
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 76%;
+    padding: 100px;
+    text-align: center;
+    height: 201px;
+    font-size: x-large;
+}
+
+.showcase {
+    min-height: 1000px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #a21a21;
+    background-color: rgba(255, 255, 255, .9);
+    font-weight: 600;
+}
+
+
+.card[data-background=image]:after {
+    position: relative !important;
+}
+
+.gradiant {
+    background-image: linear-gradient(to right, rgb(255 255 255 / 63%), rgb(255 177 0));
+}
