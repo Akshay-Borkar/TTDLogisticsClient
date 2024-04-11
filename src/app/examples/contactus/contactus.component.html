@@ -1,16 +1,15 @@
 <div class="section section-contactus cd-section" id="contact-us">
-    <div class="contactus-1 section-image vission-css" style="background-image: url('assets/img/finalcontact.jpg')">
+    <div class="contactus-1 section-image vission-css" style="background-color: aqua;">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 ml-auto mr-auto">
                     <div class="card card-contact no-transition">
-                        <h3 class="card-title elementor-heading-title">Corporate Office</h3>
                         <div class="row">
                             <div class="col-md-5 ml-auto">
                                 <div class="card-body">
                                     <div class="info info-horizontal">
-                                        <div class="icon icon-info">
-                                            <i class="nc-icon nc-pin-3" aria-hidden="true" onclick="openMap()"></i>
+                                        <div class="icon icon-info" (click)="openMap()">
+                                            <i class="nc-icon nc-pin-3" aria-hidden="true"></i>
                                         </div>
                                         <div class="description">
                                             <h4 class="info-title">Find us at the office</h4>
@@ -27,10 +26,10 @@
                                         </div>
                                         <div class="description">
                                             <h4 class="info-title">Site Office</h4>
-                                            <p>Hinjewadi – Wakad Rd<br>
-                                                Pimpri Chinchwad,<br>
-                                                Pune, Maharashtra,<br>
-                                                411057</p>
+                                            <p>Sonai Building 1st Floor,<br>
+
+                                                Opp Shell Petrol Pump,<br>
+                                                Hinjewadi,Pune-411057</p>
                                         </div>
                                     </div>
                                 </div>
@@ -38,30 +37,31 @@
                             <div class="col-md-5 mr-auto">
                                 <form role="form" id="contact-form" method="post">
                                     <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">First name</label>
-                                                    <input type="text" name="name" class="form-control"
-                                                        placeholder="First Name">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group label-floating">
-                                                    <label class="control-label">Last name</label>
-                                                    <input type="text" name="name" class="form-control"
-                                                        placeholder="Last Name">
-                                                </div>
-                                            </div>
+
+                                        <h4 class="">Enquiry Form</h4>
+
+
+
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">Full name</label>
+                                            <input type="text" name="name" [(ngModel)]="firstname" class="form-control"
+                                                placeholder="First Name">
                                         </div>
+
                                         <div class="form-group label-floating">
                                             <label class="control-label">Email address</label>
-                                            <input type="email" name="email" class="form-control" placeholder="Email" />
+                                            <input type="email" name="email" class="form-control" [(ngModel)]="email"
+                                                placeholder="Email" />
+                                        </div>
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">Mobile Number</label>
+                                            <input type="mobile" name="mobile" class="form-control" [(ngModel)]="mobile"
+                                                placeholder="mobile" />
                                         </div>
                                         <div class="form-group label-floating">
                                             <label class="control-label">Your message</label>
-                                            <textarea name="message" class="form-control" id="message" rows="6"
-                                                placeholder="Message"></textarea>
+                                            <textarea name="message" class="form-control" [(ngModel)]="message"
+                                                id="message" rows="6" placeholder="Message"></textarea>
                                         </div>
 
                                         <div class="row">
@@ -76,15 +76,17 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <button type="submit" class="btn btn-primary pull-right">Send
+                                                <button class="btn btn-primary pull-right" (click)="sendMessage()">Send
                                                     Message</button>
                                             </div>
                                         </div>
+
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <h4 style="margin-left: 10px;" style="text-align: center;" class="elementor-heading-title">Our Branches:</h4>
+                        <h4 style="margin-left: 10px;" style="text-align: center;" class="elementor-heading-title">Our
+                            Branches:</h4>
                         <div class="row" style="padding: 28px; text-align: justify;">
                             <div class="card col-md-4 branches-card">
                                 <div>
@@ -94,7 +96,8 @@
                             </div>
                             <div class="card col-md-4 branches-card">
                                 <div>
-                                    <span>TTD Logistics Pvt. Ltd., <br>Dharmishtha Park Society, B-227, <br>Nana Varachha,
+                                    <span>TTD Logistics Pvt. Ltd., <br>Dharmishtha Park Society, B-227, <br>Nana
+                                        Varachha,
                                         Surat, <br>Gujrat, 395006</span>
                                 </div>
                             </div>
@@ -104,7 +107,7 @@
                                         Behind Pharmacy College, St. Inez, Panji, North Goa, Goa, 403001</span>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -115,7 +118,39 @@
 </div>
 <footer class="footer section-nude">
     <div class="container">
+        <div class="row justify-content-center">
+            <!-- Other social media icons and links -->
+            <div class="col-auto">
+                <a>
+                    <img src="./assets/img/demo/instagram-logo-3.png" (click)="openInstagramLink()" alt="Instagram"
+                        class="social-media-icon" style="height: 27px;">
+                </a>
+            </div>
+            <!-- Other social media icons and links -->
+            <div class="col-auto">
+                <a>
+                    <img src="./assets/img/demo/facebook-logo-0.png" alt="" (click)="openFacebook()"
+                        class="social-media-icon" style="height: 40px;;">
+                </a>
+            </div>
+            <!-- Other social media icons and links -->
+            <div class="col-auto">
+                <a>
+                    <img src="./assets/img/demo/Youtube-Icon.png" (click)="openYouTubeLink()" alt=""
+                        class="social-media-icon" style="height: 40px;;">
+                </a>
+            </div>
+            <!-- Other social media icons and links -->
+            <div class="col-auto">
+                <a>
+                    <img src="./assets/img/demo/Link_Logo.jpeg" (click)="openLinkedInProfile()" alt=""
+                        class="social-media-icon" style="height: 30px;;">
+                </a>
+            </div>
+        </div>
+
         <div class="row">
+
             <nav class="footer-nav">
                 <ul>
                     <li><a href="/">TTD Logistics</a></li>

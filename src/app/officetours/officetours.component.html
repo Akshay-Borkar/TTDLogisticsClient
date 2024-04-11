@@ -1,36 +1,74 @@
-<div class="wrapper">
-    <div class="page-header ">
-      <div class="content-center">
+<div class="container">
+  <div class="section section-components section">
+    <div class="row">
+      <div class="col-md-10 col-lg-14 ml-auto mr-auto">
+
+        <h1 class="elementor-heading-title text-center"></h1>
+        <!--  <h6 class="category">The core elements of your website</h6> -->
         <div class="container">
-          <div class="title-brand text-center bg-text">
-            <!-- <div class="angular-logo mt-photo"><img alt="" src="./assets/img/ttd-new-logo-small.png"></div> -->
-            <h3 class="presentation-title text-color">Creating value through integrated logistics solutions.</h3>
-          </div>
-          
+          <h5 class="Introduction-text">Welcome to our vibrant workspace where
+            collaboration
+            thrives, creativity flows, and every voice is valued. Discover a culture that fosters innovation, celebrates
+            diversity, and empowers every team member to reach their full potential. Join us in shaping the future of
+            work
+            together.</h5>
         </div>
       </div>
     </div>
-</div>
-<div class="container">
-<h1 class="card-title text-center elementor-heading-title">Welcome to our vibrant workspace where collaboration thrives, creativity flows, and every voice is valued. Discover a culture that fosters innovation, celebrates diversity, and empowers every team member to reach their full potential. Join us in shaping the future of work together. </h1>
-</div>
-<div class="container">
-<h4 class="text-center">Images of staff and team</h4>
-</div>
-<footer class="footer section-nude"> 
-    <div class="container">
-        <div class="row">
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="/">TTD Logistics</a></li>
-                    
-                </ul>
-            </nav>
-            <div class="credits ml-auto">
-                <span class="copyright">
-                    © {{data | date: 'yyyy'}}, made with <i class="fa fa-heart heart"></i> by TTD Logistics Developers
-                </span>
-            </div>
-        </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 justify-content-center ">
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe width="560" height="315" src="./assets/img/img/OfficeTour.mp4" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
-  </footer>
+  </div>
+</div>
+
+<footer class="footer section-nude">
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- Other social media icons and links -->
+      <div class="col-auto">
+        <a>
+          <img src="./assets/img/demo/instagram-logo-3.png" (click)="openInstagramLink()" alt="Instagram"
+            class="social-media-icon" style="height: 27px;">
+        </a>
+      </div>
+      <!-- Other social media icons and links -->
+      <div class="col-auto">
+        <a>
+          <img src="./assets/img/demo/facebook-logo-0.png" alt="" (click)="openFacebook()" class="social-media-icon"
+            style="height: 40px;;">
+        </a>
+      </div>
+      <!-- Other social media icons and links -->
+      <div class="col-auto">
+        <a>
+          <img src="./assets/img/demo/Youtube-Icon.png" (click)="openYouTubeLink()" alt="" class="social-media-icon"
+            style="height: 40px;;">
+        </a>
+      </div>
+      <!-- Other social media icons and links -->
+      <div class="col-auto">
+        <a>
+          <img src="./assets/img/demo/Link_Logo.jpeg" (click)="openLinkedInProfile()" alt="" class="social-media-icon"
+            style="height: 30px;;">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="/">TTD Logistics</a></li>
+
+        </ul>
+      </nav>
+      <div class="credits ml-auto">
+        <span class="copyright">
+          © {{data | date: 'yyyy'}}, made with <i class="fa fa-heart heart"></i> by TTD Logistics Developers
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,6 +1,6 @@
 <div class="wrapper">
     <div class="page-header bg-container section-image showcase"
-        style="background: url('./assets/img/finalregionaltransport.jpg')center center scroll;;min-height:800px;">
+        style="background: url('./assets/img/finalregionaltransport.jpg');min-height:850px; margin-top: 100px;width: 100%;">
         <div class="content-center">
             <div class="container">
                 <div class="title-brand text-center bg-text">
@@ -93,61 +93,44 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-10 col-lg-14 ml-auto mr-auto">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-8 ml-auto mr-auto text-center">
-                    <h2 class="title text-center elementor-heading-title text-center ">Expanding Our Footprints
-                    </h2>
-                    <h3 class="card-title text-center elementor-heading-title text-center">Here are some of our
-                        esteemed
-                        clientele </h3>
-                </div>
-                <div class="our-clients">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-2 col-5">
-                                <img src="./assets/img/demo/StarQuick.png" alt="" width="100" height="140" />
-                            </div>
-                            <div class="col-md-2 col-5">
-                                <img src="./assets/img/demo/BigBasket.png" alt="" width="100" height="140" />
-                            </div>
-                            
-                            <div class="col-md-2 col-5">
-                                <img src="./assets/img/demo/JioMart.png" alt="" width="100" height="140" />
-                            </div>
-                            <div class="col-md-2 col-5">
-                                <img src="./assets/img/demo/Zepto.png" alt="" width="100" height="140" />
-                            </div>
-                            <div class="col-md-2 col-5">
-                                <img src="./assets/img/demo/DealShare.png" alt="" width="100" height="140" />
-                            </div>
-                            <div class="col-md-2 col-5">
-                                <img src="./assets/img/demo/mahindra_logistics.png" alt="" width="100" height="140" />
-                            </div>
-                            <div class="col-md-2 col-5">
-                                <img src="./assets/img/demo/MKTravels.png" alt="" width="100" height="140" />
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-</div>
+</div> 
 <footer class="footer section-nude">
     <div class="container">
+        <div class="row justify-content-center">
+            <!-- Other social media icons and links -->
+            <div class="col-auto">
+                <a>
+                    <img src="./assets/img/demo/instagram-logo-3.png" (click)="openInstagramLink()" alt="Instagram" class="social-media-icon" style="height: 27px;">
+                </a>
+            </div>
+                <!-- Other social media icons and links -->
+                <div class="col-auto">
+                    <a>
+                        <img src="./assets/img/demo/facebook-logo-0.png" alt="" (click)="openFacebook()" class="social-media-icon" style="height: 40px;;">
+                    </a>
+                </div>
+                    <!-- Other social media icons and links -->
+                    <div class="col-auto">
+                        <a>
+                            <img src="./assets/img/demo/Youtube-Icon.png" (click)="openYouTubeLink()" alt="" class="social-media-icon" style="height: 40px;;">
+                        </a>
+                    </div>
+                        <!-- Other social media icons and links -->
+                <div class="col-auto">
+                    <a>
+                        <img src="./assets/img/demo/Link_Logo.jpeg" (click)="openLinkedInProfile()" alt="" class="social-media-icon" style="height: 30px;;">
+                    </a>
+                </div>
+        </div>
         <div class="row">
+
             <nav class="footer-nav">
                 <ul>
                     <li><a href="/">TTD Logistics</a></li>
 
                 </ul>
             </nav>
-            <div class="credits ml-auto">
+            <div class="credits ml-auto justify-content-center">
                 <span class="copyright">
                     Email: <a href="mailto:support@ttdlogistics.in">support@ttdlogistics.in</a>.<br>
                 </span>
