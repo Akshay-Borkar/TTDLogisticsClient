@@ -4,6 +4,7 @@
   text-align: justify;
   font-size: x-large;
 }
+
 .elementor-heading-title {
   color: #dc360f;
   font-family: "Quando", Sans-serif;
@@ -11,11 +12,13 @@
   font-weight: 500;
   text-transform: capitalize;
 }
+
 @media screen and (min-width:481px) {
   .polaroid {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: justify;
-    padding: 28px; margin: 55px;
+    padding: 28px;
+    margin: 55px;
   }
 }
 
@@ -27,9 +30,9 @@
   .polaroid {
     display: block !important;
     margin-left: 0%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  padding: 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 28px;
   }
 }
 
@@ -55,3 +58,4 @@
   max-width: 150px;
   max-height: 150px;
 }
+

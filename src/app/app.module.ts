@@ -25,6 +25,7 @@ import {CorporateTransportServicesComponent} from './services/corporatetransport
 import {EcommerceDeliveryComponent} from './services/e-commerce/e-commercedelivery.component';
 import {RegionalTransportationComponent} from './services/regionaltransportation/regionaltransportation.component';
 import {EvehicleChargingServicestationComponent} from './services/e-vehiclechargingservicestation/evehiclechargingservicestation.component';
+import { SocialmediaComponent } from './common/socialmedia.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import {EvehicleChargingServicestationComponent} from './services/e-vehiclecharg
       CorporateTransportServicesComponent,
       EcommerceDeliveryComponent,
       RegionalTransportationComponent,
-      EvehicleChargingServicestationComponent
+      EvehicleChargingServicestationComponent,
+      SocialmediaComponent
    ],
     imports: [
         BrowserAnimationsModule,

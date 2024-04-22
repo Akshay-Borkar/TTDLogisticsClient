@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule, } from '@angular/common';
-import { BrowserModule  } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { PresentationComponent } from './presentation/presentation.component';
@@ -30,32 +30,32 @@ import { HistoryComponent } from './history/history.component';
 import { MissionVissionComponent } from './mission-vission/mission-vission.component';
 import { DirectorsComponent } from './directors/directors.component';
 import { LogisticsComponent } from './logistics/logistics.component';
-import {PitchDeckComponent} from './pitchdeck/pitchdeck.component';
-import {OfficeToursComponent} from './officetours/officetours.component';
-import {WhyChooseUSComponent} from './whychooseus/whychooseus.component';
-import {ElectrifyingTTDComponent} from './electrifyingttd/electrifyingttd.component';
-import {CorporateTransportServicesComponent} from './services/corporatetransportservices.component';
-import {EcommerceDeliveryComponent} from './services/e-commerce/e-commercedelivery.component';
-import {RegionalTransportationComponent} from './services/regionaltransportation/regionaltransportation.component';
-import {EvehicleChargingServicestationComponent} from './services/e-vehiclechargingservicestation/evehiclechargingservicestation.component';
+import { PitchDeckComponent } from './pitchdeck/pitchdeck.component';
+import { OfficeToursComponent } from './officetours/officetours.component';
+import { WhyChooseUSComponent } from './whychooseus/whychooseus.component';
+import { ElectrifyingTTDComponent } from './electrifyingttd/electrifyingttd.component';
+import { CorporateTransportServicesComponent } from './services/corporatetransportservices.component';
+import { EcommerceDeliveryComponent } from './services/e-commerce/e-commercedelivery.component';
+import { RegionalTransportationComponent } from './services/regionaltransportation/regionaltransportation.component';
+import { EvehicleChargingServicestationComponent } from './services/e-vehiclechargingservicestation/evehiclechargingservicestation.component';
 
-const routes: Routes =[
-    { path: 'home',         component: PresentationComponent },
-    { path: 'careers',   component: CareersComponent },
+const routes: Routes = [
+    { path: 'home', component: PresentationComponent },
+    { path: 'careers', component: CareersComponent },
 
-    { path: 'about/history',   component: HistoryComponent },
-    {path:'about/whychooseus',component:WhyChooseUSComponent},
-    { path: 'about/mission',   component: MissionVissionComponent },
-    { path: 'about/directors',   component: DirectorsComponent },
-    { path: 'services/logistics',   component: LogisticsComponent },
-    { path: 'examples/contactus',   component: ContactusComponent },
-    { path: 'about/pitchdeck',   component: PitchDeckComponent },
-    {path:'about/officetours',component:OfficeToursComponent},
-    {path:'electrifyingttd',component:ElectrifyingTTDComponent},
-    {path:'services/corporatetransportservices',component:CorporateTransportServicesComponent},
-    {path:'services/e-commercedelivery',component:EcommerceDeliveryComponent},
-    {path:'services/regionaltransportation',component:RegionalTransportationComponent},
-    {path:'services/evehiclechargingservicestation',component:EvehicleChargingServicestationComponent},
+    { path: 'about/history', component: HistoryComponent },
+    { path: 'about/whychooseus', component: WhyChooseUSComponent },
+    { path: 'about/mission', component: MissionVissionComponent },
+    { path: 'about/directors', component: DirectorsComponent },
+    { path: 'services/logistics', component: LogisticsComponent },
+    { path: 'examples/contactus', component: ContactusComponent },
+    { path: 'about/pitchdeck', component: PitchDeckComponent },
+    { path: 'about/officetours', component: OfficeToursComponent },
+    { path: 'electrifyingttd', component: ElectrifyingTTDComponent },
+    { path: 'services/corporatetransportservices', component: CorporateTransportServicesComponent },
+    { path: 'services/e-commercedelivery', component: EcommerceDeliveryComponent },
+    { path: 'services/regionaltransportation', component: RegionalTransportationComponent },
+    { path: 'services/evehiclechargingservicestation', component: EvehicleChargingServicestationComponent },
 
 
 
@@ -87,8 +87,8 @@ const routes: Routes =[
     imports: [
         CommonModule,
         BrowserModule,
-        RouterModule.forRoot(routes,{
-          useHash: true
+        RouterModule.forRoot(routes, {
+            useHash: true
         })
     ],
     exports: [
